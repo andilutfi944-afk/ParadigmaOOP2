@@ -8,6 +8,7 @@ public:
     void setSaklarNo(int i, string value) {
         saklarNo[i] = value;
     }
+
     string getSaklarNo(int i) {
         return saklarNo[i];
     }
@@ -25,3 +26,6 @@ int main() {
     cout << lampuRumah.getSaklarNo(1) << endl;
     cout << lampuRumah.getSaklarNo(2) << endl;
     cout << lampuRumah.getSaklarNo(3) << endl;
+
+    return 0;
+}
